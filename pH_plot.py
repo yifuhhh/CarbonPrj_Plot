@@ -23,15 +23,23 @@ def main():
 
 def plot_GNR(files_GNR, root_GNR):
     plt.figure()
+    i = 1
+    data = np.arange(3588).reshape(299, 12)
+    data.dtype = np.float
     for file in files_GNR:
         pH = int(file[-5])
         if file[-6] == '1':
             pH = pH + 10
-        data = pd.read_csv(root_GNR + '/' + file, header=None)
-        data = np.array(data)
+        tmp = pd.read_csv(root_GNR + '/' + file, header=None)
+        tmp = np.array(tmp)
+        data[:, 0] = tmp [:, 0]
+        data[:, pH-1] = tmp[:, 1]
+
+    while i < 12:
         Vg = data[:, 0]
-        Ids = data[:, 1]
-        plt.plot(Vg, Ids, label="pH = " + str(pH))
+        Ids = data[:, i]
+        i = i + 1
+        plt.plot(Vg, Ids, label="pH = " + str(i))
 
     plt.xlabel('Vg (V)')
     plt.ylabel('Ids (A)')
@@ -42,15 +50,23 @@ def plot_GNR(files_GNR, root_GNR):
 
 def plot_CNT(files_CNT, root_CNT):
     plt.figure()
+    i = 1
+    data = np.arange(3588).reshape(299, 12)
+    data.dtype = np.float
     for file in files_CNT:
         pH = int(file[-5])
         if file[-6] == '1':
             pH = pH + 10
-        data = pd.read_csv(root_CNT + '/' + file, header=None)
-        data = np.array(data)
+        tmp = pd.read_csv(root_CNT + '/' + file, header=None)
+        tmp = np.array(tmp)
+        data[:, 0] = tmp [:, 0]
+        data[:, pH-1] = tmp[:, 1]
+
+    while i < 12:
         Vg = data[:, 0]
-        Ids = data[:, 1]
-        plt.plot(Vg, Ids, label="pH = " + str(pH))
+        Ids = data[:, i]
+        i = i + 1
+        plt.plot(Vg, Ids, label="pH = " + str(i))
 
     plt.xlabel('Vg (V)')
     plt.ylabel('Ids (A)')

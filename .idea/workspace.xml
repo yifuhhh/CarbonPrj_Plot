@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cb59adb-73f4-4958-85e9-429422df52ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GNR_pH_transfer.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_10.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_12.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_5.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_6.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_7.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_8.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_9.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawData/pH_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNT_pH_transfer.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/CNT_pH_transfer.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GNR_pH_transfer.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/GNR_pH_transfer.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pH_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/pH_plot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +15,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pH_plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,10 +48,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="754" />
-    <option name="y" value="27" />
-    <option name="width" value="926" />
-    <option name="height" value="789" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -154,8 +146,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pH_plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1659">
-          <caret line="79" column="45" lean-forward="true" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+        <state relative-caret-position="840">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
